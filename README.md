@@ -1,17 +1,34 @@
-使用说明：
+## 🚀 使用说明
 
-1.下载项目：
+### 1. 下载项目
+
+#### 方式一：直接下载压缩包
+
+点击仓库右上角的 **Code** 按钮，选择 **Download ZIP**，下载完成后解压到本地文件夹。
+
+<img width="621" alt="下载压缩包" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
+
+#### 方式二：克隆仓库
+
+在终端中执行以下命令：
+
+```bash
+git clone https://github.com/zhfapple/X-ad-blocker-x.git
 
 
-  方式一：直接下载
+### 2. 添加到浏览器扩展（以chrome为例）
+
+  打开浏览器管理扩展程序界面
+
+  <img width="730" height="785" alt="image" src="https://github.com/user-attachments/assets/3346a1b1-97be-4215-836d-bc02d2276723" />
+
+  开启开发者按钮，加载未打包扩展，选择之前克隆或者解压的项目文件夹，添加
+
+  <img width="2560" height="923" alt="image" src="https://github.com/user-attachments/assets/b94eacd5-5589-41fd-af54-ab2ca7debfaf" />
+
+
+
   
-  <img width="621" height="640" alt="image" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
-
-  方式二：克隆仓库
-
-  `git clone https://github.com/zhfapple/X-ad-blocker-x.git`
-
-
 
 
 

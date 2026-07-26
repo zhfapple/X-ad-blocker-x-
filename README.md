@@ -1,8 +1,14 @@
 使用说明：
 
-1.使用以下命令克隆项目：
+1.下载项目：
 
-`git clone https://github.com/zhfapple/X-ad-blocker-x.git`
+  方式一：<img width="621" height="640" alt="image" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
+
+  方式二：
+
+  `git clone https://github.com/zhfapple/X-ad-blocker-x.git`
+
+
 
 
 

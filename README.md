@@ -14,6 +14,7 @@
 
 ```bash
 git clone https://github.com/zhfapple/X-ad-blocker-x.git
+```
 
 
 ### 2. 添加到浏览器扩展（以chrome为例）

@@ -2,9 +2,12 @@
 
 1.下载项目：
 
-  方式一：<img width="621" height="640" alt="image" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
 
-  方式二：
+  方式一直接下载：
+  
+  <img width="621" height="640" alt="image" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
+
+  方式二克隆仓库：
 
   `git clone https://github.com/zhfapple/X-ad-blocker-x.git`
 

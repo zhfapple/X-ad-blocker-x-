@@ -1,3 +1,8 @@
+使用说明：
+1.使用以下命令克隆项目：`git clone https://github.com/zhfapple/X-ad-blocker-x.git`
+
+
+
 ## 💖 支持这个项目
 
 如果这个插件帮助到了你，欢迎请作者喝杯咖啡 ☕️，你的支持是我持续维护的动力！

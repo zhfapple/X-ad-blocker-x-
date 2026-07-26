@@ -36,10 +36,20 @@ git clone https://github.com/zhfapple/X-ad-blocker-x-
 
 ## 💖 支持这个项目
 
-如果这个插件帮助到了你，欢迎请作者喝杯咖啡 ☕️，你的支持是我持续维护的动力！
+如果这个项目帮助到了你，欢迎请作者喝杯咖啡 ☕️，你的支持是我持续更新与维护的最大动力！
+
+### 💳 海外赞助 (International)
+
+[![PayPal](https://img.shields.io/badge/Donate-PayPal-003087?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/zhfapple)
+
+> 💡 如果你在海外，可以直接通过 **[PayPal.me/zhfapple](https://paypal.me/zhfapple)** 进行赞助。
+
+---
+
+### 🇨🇳 国内赞助 (China)
 
 | 微信支付 | 支付宝 |
 | :---: | :---: |
 | ![微信收款码](images/wx.jpg) | ![支付宝收款码](images/zfb.jpg) |
 
-> **注意**：如果你使用微信或支付宝扫码，备注中可留下你的 GitHub 昵称，我会在 README 中致谢！🙏
+> **注意**：赞助时可在备注中留下你的 **GitHub 昵称** 和 **留言**，我会在下方致谢名单中列出！感谢你的支持 🙏

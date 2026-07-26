@@ -2,19 +2,20 @@
 
 ### 1. 下载项目
 
-#### 方式一：直接下载压缩包
+      #### 方式一：直接下载压缩包
+      
+      点击仓库右上角的 **Code** 按钮，选择 **Download ZIP**，下载完成后解压到本地文件夹。
+      
+      <img width="621" alt="下载压缩包" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
+      
+      #### 方式二：克隆仓库
+      
+      在终端中执行以下命令：
+      
+      ```bash
+      git clone https://github.com/zhfapple/X-ad-blocker-x-
+      ```
 
-点击仓库右上角的 **Code** 按钮，选择 **Download ZIP**，下载完成后解压到本地文件夹。
-
-<img width="621" alt="下载压缩包" src="https://github.com/user-attachments/assets/1fa77f29-0cac-4204-963c-1fa460dcd57e" />
-
-#### 方式二：克隆仓库
-
-在终端中执行以下命令：
-
-```bash
-git clone https://github.com/zhfapple/X-ad-blocker-x-
-```
 
 
 ### 2. 添加到浏览器扩展（以chrome为例）

@@ -13,7 +13,7 @@
 在终端中执行以下命令：
 
 ```bash
-git clone https://github.com/zhfapple/X-ad-blocker-x.git
+git clone https://github.com/zhfapple/X-ad-blocker-x-
 ```
 
 

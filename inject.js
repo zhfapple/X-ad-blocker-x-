@@ -4,7 +4,7 @@
   // 判断 URL 是否同时包含 graphql 和 HomeTimeline
   function isTargetUrl(url) {
     if (!url || typeof url !== 'string') return false;
-    return url.includes('graphql') && url.includes('HomeTimeline');
+    return url.includes('graphql') && (url.includes('HomeTimeline') || url.includes('TweetDetail'));
   }
 
   // 1. 核心广告判断逻辑
@@ -16,8 +16,8 @@
       return true;
     }
 
-    // 检查 itemContent
-    const itemContent = entry.itemContent || entry.content?.itemContent;
+    // 检查 itemContent（支持多路径：直接 / content内 / item包装内）
+    const itemContent = entry.itemContent || entry.content?.itemContent || entry.item?.itemContent;
     if (itemContent) {
       if (itemContent.promotedMetadata || itemContent.itemType === 'TimelineItemPromoted') {
         return true;
@@ -49,7 +49,14 @@
           }
           return !isAd;
         })
-        .map(item => filterAdsFromTimeline(item));
+        .map(item => filterAdsFromTimeline(item))
+        .filter(item => {
+          if (item?.content?.__typename === 'TimelineTimelineModule' && Array.isArray(item.content.items) && item.content.items.length === 0) {
+            console.log('⚡ [X-AdBlocker] 移除空广告容器！', item);
+            return false;
+          }
+          return true;
+        });
     }
 
     for (const key in obj) {

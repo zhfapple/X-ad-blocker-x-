@@ -1,26 +1,15 @@
-function hideAds() {
-  // 策略一：通过官方广告标记
-  document.querySelectorAll('[data-testid="placementTracking"]').forEach(el => {
-    const cell = el.closest('[data-testid="cellInnerDiv"]');
-    if (cell) {
-      cell.style.display = 'none';
-      return;
-    }
-    const article = el.closest('article');
-    if (article) article.style.display = 'none';
-  });
-
-  // 策略二：通过文字特征兜底
-  document.querySelectorAll('article').forEach(article => {
-    if (article.style.display === 'none') return;
-    const text = article.innerText;
-    if (text.includes('广告') || text.includes('Ad') || text.includes('Promoted') || text.includes('広告')) {
-      const cell = article.closest('[data-testid="cellInnerDiv"]');
-      if (cell) cell.style.display = 'none';
-      else article.style.display = 'none';
-    }
-  });
+// 在页面最顶层注入 inject.js
+function injectScript(file_path) {
+  const container = document.documentElement || document.head;
+  const script = document.createElement('script');
+  script.setAttribute('type', 'text/javascript');
+  script.setAttribute('src', chrome.runtime.getURL(file_path));
+  
+  container.insertBefore(script, container.firstChild);
+  script.onload = function () {
+    script.remove(); // 注入成功后移除 script 节点，保持 DOM 整洁
+  };
 }
 
-hideAds();
-new MutationObserver(hideAds).observe(document.body, { childList: true, subtree: true });
+// 立即执行注入
+injectScript('inject.js');

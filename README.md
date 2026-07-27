@@ -52,8 +52,6 @@ git clone https://github.com/zhfapple/X-ad-blocker-x-
 
 | 微信支付 | 支付宝 |
 | :---: | :---: |
-| ![微信收款码](<img width="417" height="458" alt="image" src="https://github.com/user-attachments/assets/b4eb98f0-336e-42a6-98a9-9432ec6d0bc9" />
-) | ![支付宝收款码](<img width="440" height="502" alt="image" src="https://github.com/user-attachments/assets/0eb02c66-8ded-4057-9efc-b17de054b79a" />
-) |
+| <img width="417" height="458" alt="image" src="https://github.com/user-attachments/assets/b4eb98f0-336e-42a6-98a9-9432ec6d0bc9" />| <img width="440" height="502" alt="image" src="https://github.com/user-attachments/assets/0eb02c66-8ded-4057-9efc-b17de054b79a" /> |
 
 > **注意**：赞助时可在备注中留下你的 **GitHub 昵称** 和 **留言**，我会在下方致谢名单中列出！感谢你的支持 🙏
